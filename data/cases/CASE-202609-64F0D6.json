@@ -1,0 +1,20 @@
+{
+    "case_id": "CASE-202609-64F0D6",
+    "title": "E2E Enterprise Audit Case",
+    "investigator": "Lead Cyber Examiner",
+    "organization": "Global Threat Intel",
+    "created_utc": "2026-09-28T07:32:53.509674Z",
+    "status": "OPEN_INVESTIGATION",
+    "exhibits": [
+        {
+            "media_name": "suspect_avatar.jpg",
+            "verdict": "SYNTHETIC_DEEPFAKE",
+            "confidence": 98.6,
+            "sha256": "a1b2c3d4e5f678901234567890abcdef",
+            "threat_actor": "StyleGAN / Upsampling",
+            "notes": "Critical breach",
+            "exhibit_id": "EXHIBIT-01",
+            "attached_utc": "2026-09-28T07:32:55.556979Z"
+        }
+    ]
+}

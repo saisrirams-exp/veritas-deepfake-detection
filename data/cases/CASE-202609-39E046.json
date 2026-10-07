@@ -1,0 +1,18 @@
+{
+    "case_id": "CASE-202609-39E046",
+    "title": "Test Incident",
+    "investigator": "Analyst 01",
+    "organization": "Cyber Defense Corp",
+    "created_utc": "2026-09-28T07:27:50.701866Z",
+    "status": "OPEN_INVESTIGATION",
+    "exhibits": [
+        {
+            "media_name": "sample.jpg",
+            "verdict": "SYNTHETIC",
+            "confidence": 98.2,
+            "sha256": "abcdef123456",
+            "exhibit_id": "EXHIBIT-01",
+            "attached_utc": "2026-09-28T07:27:50.706822Z"
+        }
+    ]
+}

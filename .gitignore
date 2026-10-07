@@ -1,0 +1,58 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Build and Distribution
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter & Notebooks
+.ipynb_checkpoints
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Model Checkpoints & Large Data
+data/train/
+data/validation/
+data/celeb_df/
+data/faceforensics/
+temp/
+logs/
+uploaded_images/
+uploaded_videos/
+temp_video_*.mp4
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# OS Artifacts
+.DS_Store
+Thumbs.db

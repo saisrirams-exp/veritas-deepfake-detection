@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="200" viewBox="0 0 300 200">
+  <!-- Background -->
+  <rect width="300" height="200" fill="#f5f5f5" />
+  
+  <!-- Image frame -->
+  <rect x="10" y="10" width="280" height="160" fill="#ffffff" stroke="#333333" stroke-width="2" />
+  
+  <!-- Face outline -->
+  <circle cx="150" cy="80" r="50" fill="#90ee90" opacity="0.3" />
+  
+  <!-- Real image indicators -->
+  <rect x="120" y="60" width="60" height="40" fill="none" stroke="#00aa00" stroke-width="2" />
+  
+  <!-- Face features (simplified) -->
+  <circle cx="135" cy="70" r="5" fill="#333333" />
+  <circle cx="165" cy="70" r="5" fill="#333333" />
+  <path d="M 140,90 C 145,95 155,95 160,90" stroke="#333333" stroke-width="2" fill="none" />
+  
+  <!-- Real Image Label -->
+  <rect x="75" y="150" width="150" height="30" rx="5" ry="5" fill="#55aa55" />
+  <text x="150" y="170" font-family="Arial" font-size="14" fill="white" text-anchor="middle">AUTHENTIC IMAGE</text>
+  
+  <!-- Analysis points -->
+  <circle cx="135" cy="70" r="10" fill="none" stroke="#00ff00" stroke-width="1" />
+  <circle cx="165" cy="70" r="10" fill="none" stroke="#00ff00" stroke-width="1" />
+  
+  <!-- AI processing indication -->
+  <path d="M 20,20 L 40,20 L 40,30 L 20,30 Z" fill="#3366ff" />
+  <path d="M 45,20 L 65,20 L 65,30 L 45,30 Z" fill="#3366ff" />
+  <path d="M 70,20 L 90,20 L 90,30 L 70,30 Z" fill="#3366ff" />
+  
+  <!-- Confidence score -->
+  <text x="240" y="30" font-family="Arial" font-size="12" fill="#00aa00" text-anchor="middle">99.2% authentic</text>
+  
+  <!-- Consistency markers -->
+  <line x1="120" y1="65" x2="120" y2="95" stroke="#00aa00" stroke-width="1" />
+  <line x1="180" y1="65" x2="180" y2="95" stroke="#00aa00" stroke-width="1" />
+  <line x1="125" y1="60" x2="175" y2="60" stroke="#00aa00" stroke-width="1" />
+  <line x1="125" y1="100" x2="175" y2="100" stroke="#00aa00" stroke-width="1" />
+</svg>

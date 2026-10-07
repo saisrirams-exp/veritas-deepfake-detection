@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="200" viewBox="0 0 300 200">
+  <!-- Background -->
+  <rect width="300" height="200" fill="#f0f0f0" />
+  
+  <!-- Image frame -->
+  <rect x="10" y="10" width="280" height="160" fill="#ffffff" stroke="#333333" stroke-width="2" />
+  
+  <!-- Face outline -->
+  <circle cx="150" cy="80" r="50" fill="#ffd700" opacity="0.3" />
+  
+  <!-- Artifacts indicator -->
+  <rect x="120" y="60" width="60" height="40" fill="none" stroke="#ff0000" stroke-width="2" stroke-dasharray="5,5" />
+  
+  <!-- Detection overlay -->
+  <path d="M 120,100 L 180,100" stroke="#ff0000" stroke-width="2" />
+  <path d="M 130,70 L 170,70" stroke="#ff0000" stroke-width="2" />
+  
+  <!-- Face features (simplified) -->
+  <circle cx="135" cy="70" r="5" fill="#333333" />
+  <circle cx="165" cy="70" r="5" fill="#333333" />
+  <path d="M 140,90 C 145,95 155,95 160,90" stroke="#333333" stroke-width="2" fill="none" />
+  
+  <!-- Deepfake Detection Label -->
+  <rect x="75" y="150" width="150" height="30" rx="5" ry="5" fill="#ff5555" />
+  <text x="150" y="170" font-family="Arial" font-size="14" fill="white" text-anchor="middle">DEEPFAKE DETECTED</text>
+  
+  <!-- Analysis points -->
+  <circle cx="135" cy="70" r="10" fill="none" stroke="#00ff00" stroke-width="1" />
+  <circle cx="165" cy="70" r="10" fill="none" stroke="#00ff00" stroke-width="1" />
+  
+  <!-- AI processing indication -->
+  <path d="M 20,20 L 40,20 L 40,30 L 20,30 Z" fill="#3366ff" />
+  <path d="M 45,20 L 65,20 L 65,30 L 45,30 Z" fill="#3366ff" />
+  <path d="M 70,20 L 90,20 L 90,30 L 70,30 Z" fill="#3366ff" />
+  
+  <!-- Confidence score -->
+  <text x="240" y="30" font-family="Arial" font-size="12" fill="#ff0000" text-anchor="middle">98.5% confidence</text>
+</svg>

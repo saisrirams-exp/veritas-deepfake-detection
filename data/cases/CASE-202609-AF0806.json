@@ -1,0 +1,20 @@
+{
+    "case_id": "CASE-202609-AF0806",
+    "title": "SDK Auto Test Incident",
+    "investigator": "SecOps Bot",
+    "organization": "VERITAS Enterprise",
+    "created_utc": "2026-09-28T07:30:45.900687Z",
+    "status": "OPEN_INVESTIGATION",
+    "exhibits": [
+        {
+            "media_name": "test_synthetic.jpg",
+            "verdict": "AUTHENTIC / ORGANIC MEDIA",
+            "confidence": 73.73,
+            "sha256": "12837a0a0fc7a9f732db0eb369fe0c9f80f555422c10c96f85479114f7f0f016",
+            "threat_actor": "Authentic Optical Sensor",
+            "notes": "",
+            "exhibit_id": "EXHIBIT-01",
+            "attached_utc": "2026-09-28T07:30:47.969996Z"
+        }
+    ]
+}

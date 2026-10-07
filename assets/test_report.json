@@ -1,0 +1,27 @@
+{
+    "forensic_report_header": {
+        "system": "Deepfake Forensic Suite (SOTA)",
+        "engine_version": "v2.0-SOTA",
+        "examiner": "Automated SOTA Forensic Engine",
+        "timestamp_utc": "2026-09-28T06:51:31.885522Z",
+        "media_identifier": "assets\\test_synthetic.jpg",
+        "sha256_hash": "12837a0a0fc7a9f732db0eb369fe0c9f80f555422c10c96f85479114f7f0f016"
+    },
+    "executive_verdict": {
+        "primary_verdict": "AUTHENTIC / ORGANIC MEDIA",
+        "threat_severity": "CLEAN",
+        "confidence_score": "69.25%",
+        "synthetic_probability": "30.75%",
+        "authentic_probability": "69.25%"
+    },
+    "multi_domain_evidence": {
+        "Spatial Deep Learning": 61.4,
+        "Frequency Domain (FFT)": 5.0,
+        "Error Level Analysis (ELA)": 5.0,
+        "Face-Background Boundary": 9.0
+    },
+    "detected_anomalies": [
+        "High spatial artifact signature detected by deep convolutional backbone."
+    ],
+    "metadata_notes": "Cryptographic authenticity verification completed under multi-modal forensic parameters."
+}

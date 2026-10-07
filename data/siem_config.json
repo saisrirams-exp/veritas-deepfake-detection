@@ -1,0 +1,12 @@
+{
+    "enabled": false,
+    "webhook_url": "https://localhost:9999/webhook",
+    "alert_threshold": 0.75,
+    "hmac_secret": "sec_2026",
+    "channels": {
+        "slack_compatible": true,
+        "splunk_cef": false,
+        "generic_json": true
+    },
+    "recent_dispatches": []
+}
